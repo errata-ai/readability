@@ -27,7 +27,7 @@ jobs:
       - run:
           name: Fetch Vale
           command: |
-            go install github.com/errata-ai/vale/v2/cmd/vale@latest
+            go install github.com/errata-ai/vale/v2/cmd/vale@cd147755b9fc6cf7d9ca1a70f4f75c633beeaf17
             echo 'export PATH=$PATH:$(go env GOPATH)/bin' >> $BASH_ENV
 
       - save_cache:
