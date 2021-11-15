@@ -1,0 +1,3 @@
+$ cdf ${ROOTDIR}/LIX
+$ vale --output=line --sort --normalize --relative test.md
+test.md:1:1:Readability.LIX:Try to keep the LIX score (38.27) below 35.
